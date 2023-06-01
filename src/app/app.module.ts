@@ -6,11 +6,15 @@ import { AppComponent } from './app.component';
 import { CreateUpdateCustomerComponent } from './create-update-customer/create-update-customer.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { UpdateCustomerComponent } from './update-customer/update-customer.component';
+import { CustomersListComponent } from './customers-list/customers-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CreateUpdateCustomerComponent
+    CreateUpdateCustomerComponent,
+    UpdateCustomerComponent,
+    CustomersListComponent
   ],
   imports: [
     BrowserModule,

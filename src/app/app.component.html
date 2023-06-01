@@ -1,2 +1,18 @@
+<nav class="bg-gray-800">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div class="flex items-center justify-center h-16"> <!-- Utiliza la clase de utilidad justify-center en el contenedor del menú -->
+        <div class="flex items-center text-center">
+          <div class="hidden md:block">
+            <div class="flex items-baseline ml-10 space-x-4">
+              <a routerLink="/" class="px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white">Todos los clientes</a>
+              <a routerLink="/Create" class="px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white">Crear nuevo</a>
+              <a routerLink="/Update" class="px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white">Actualizar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
 
-<app-create-update-customer></app-create-update-customer>
+<router-outlet></router-outlet>
